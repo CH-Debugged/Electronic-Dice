@@ -23,7 +23,7 @@ An Arduino-based electronic dice that generates a random number from 1–6 when 
 - Breadboard
 
 ## Schematic
-![Schematic](schematic.png)
+![Schematic](schematic(2).png)
 
 ## Wiring
 | Component | Arduino Pin |
