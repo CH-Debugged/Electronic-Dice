@@ -22,6 +22,9 @@ An Arduino-based electronic dice that generates a random number from 1–6 when 
 - Jumper wires
 - Breadboard
 
+## Schematic
+![Schematic](schematic.png)
+
 ## Wiring
 | Component | Arduino Pin |
 |-----------|-------------|
