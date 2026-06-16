@@ -3,7 +3,7 @@
 An Arduino-based electronic dice that generates a random number from 1–6 when a touch sensor is activated. The result is displayed on a 7-segment display and an I2C LCD module.
 
 ## Demo
-*(Add your video link here)*
+(https://youtube.com/shorts/ym76kmITnC4)
 
 ## Features
 - Touch sensor input to trigger a dice roll
