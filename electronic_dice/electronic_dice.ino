@@ -22,6 +22,7 @@ int seg_g = 5;
 int sensor = 3;
 
 int i = 0;
+int prevRoll = 0;
 unsigned long resultDisplayTime = 0;
 int rollCount = 0;
 
@@ -86,7 +87,14 @@ void loop() {
     lcd.print(": ");
     lcd.print(i);
     lcd.setCursor(0, 1);
-    lcd.print("Touch to Roll!");
+    if (prevRoll == 0) {
+      lcd.print("Prev: --");
+    } else {
+      lcd.print("Prev: ");
+      lcd.print(prevRoll);
+    }
+
+    prevRoll = i;
 
     // Log to Serial Monitor
     Serial.print("Roll #");
